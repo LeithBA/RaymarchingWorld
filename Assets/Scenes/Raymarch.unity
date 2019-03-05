@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 584429205}
   - component: {fileID: 584429204}
   - component: {fileID: 584429203}
+  - component: {fileID: 584429207}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -144,11 +145,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _shader: {fileID: 4800000, guid: 8f2ffb2b1e8783d47832761c7caff77b, type: 3}
   _directionLight: {fileID: 1157987214}
-  _maxDistance: 200
+  _maxDistance: 500
   _mainColor: {r: 1, g: 0.78845626, b: 0, a: 1}
-  _sphere1: {x: 0, y: 0, z: 0, w: 2.52}
-  _box1: {x: 0, y: 0, z: 0, w: 1.94}
-  _modInterval: {x: 4, y: 4, z: 4}
+  _sphere1: {x: 0, y: 0, z: 0, w: 12.69}
+  _box1: {x: 0, y: 0, z: 0, w: 10.2}
+  _modInterval: {x: 20, y: 20, z: 20}
 --- !u!81 &584429204
 AudioListener:
   m_ObjectHideFlags: 0
@@ -165,7 +166,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.10586506, g: 0.19571395, b: 0.3679245, a: 1}
+  m_BackGroundColor: {r: 0, g: 0.24668512, b: 0.3962264, a: 1}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -209,6 +210,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &584429207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 584429202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c2102eb97c8fc46a843f5557fb7a36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1157987212
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,10 +280,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157987212}
-  m_LocalRotation: {x: -0.7045173, y: 0.06046036, z: -0.2111122, w: 0.6748568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -67.72401, y: 90, z: -102.466}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
